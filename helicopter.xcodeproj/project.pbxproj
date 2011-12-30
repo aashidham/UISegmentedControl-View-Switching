@@ -1,0 +1,290 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		809CD22E14ABDA6B007443C0 /* CalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 809CD22B14ABDA6B007443C0 /* CalendarViewController.m */; };
+		809CD22F14ABDA6B007443C0 /* CalendarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 809CD22C14ABDA6B007443C0 /* CalendarViewController.xib */; };
+		809CD23114ABDB33007443C0 /* SegmentedControl.xib in Resources */ = {isa = PBXBuildFile; fileRef = 809CD23014ABDB33007443C0 /* SegmentedControl.xib */; };
+		80C4D33E14588E2500E6FC0D /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80C4D33D14588E2500E6FC0D /* RootViewController.xib */; };
+		80E8C37B14523BB800A9EB3A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80E8C37A14523BB800A9EB3A /* UIKit.framework */; };
+		80E8C37D14523BB800A9EB3A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80E8C37C14523BB800A9EB3A /* Foundation.framework */; };
+		80E8C37F14523BB800A9EB3A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80E8C37E14523BB800A9EB3A /* CoreGraphics.framework */; };
+		80E8C38114523BB800A9EB3A /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80E8C38014523BB800A9EB3A /* CoreData.framework */; };
+		80E8C38714523BB800A9EB3A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 80E8C38514523BB800A9EB3A /* InfoPlist.strings */; };
+		80E8C38A14523BB800A9EB3A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 80E8C38914523BB800A9EB3A /* main.m */; };
+		80E8C38D14523BB800A9EB3A /* accountingAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 80E8C38C14523BB800A9EB3A /* accountingAppDelegate.m */; };
+		80E8C39614523BB900A9EB3A /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80E8C39514523BB900A9EB3A /* RootViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		809CD22B14ABDA6B007443C0 /* CalendarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CalendarViewController.m; path = ../CalendarViewController.m; sourceTree = "<group>"; };
+		809CD22C14ABDA6B007443C0 /* CalendarViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CalendarViewController.xib; path = ../CalendarViewController.xib; sourceTree = "<group>"; };
+		809CD22D14ABDA6B007443C0 /* CalendarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CalendarViewController.h; path = ../CalendarViewController.h; sourceTree = "<group>"; };
+		809CD23014ABDB33007443C0 /* SegmentedControl.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SegmentedControl.xib; path = ../SegmentedControl.xib; sourceTree = "<group>"; };
+		80C4D33D14588E2500E6FC0D /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		80E8C37614523BB800A9EB3A /* helicopter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = helicopter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		80E8C37A14523BB800A9EB3A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		80E8C37C14523BB800A9EB3A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		80E8C37E14523BB800A9EB3A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		80E8C38014523BB800A9EB3A /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		80E8C38414523BB800A9EB3A /* helicopter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "helicopter-Info.plist"; sourceTree = "<group>"; };
+		80E8C38614523BB800A9EB3A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		80E8C38814523BB800A9EB3A /* helicopter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "helicopter-Prefix.pch"; sourceTree = "<group>"; };
+		80E8C38914523BB800A9EB3A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		80E8C38B14523BB800A9EB3A /* accountingAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = accountingAppDelegate.h; sourceTree = "<group>"; };
+		80E8C38C14523BB800A9EB3A /* accountingAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = accountingAppDelegate.m; sourceTree = "<group>"; };
+		80E8C39414523BB900A9EB3A /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		80E8C39514523BB900A9EB3A /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		80E8C37314523BB800A9EB3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80E8C37B14523BB800A9EB3A /* UIKit.framework in Frameworks */,
+				80E8C37D14523BB800A9EB3A /* Foundation.framework in Frameworks */,
+				80E8C37F14523BB800A9EB3A /* CoreGraphics.framework in Frameworks */,
+				80E8C38114523BB800A9EB3A /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		80E8C36B14523BB800A9EB3A = {
+			isa = PBXGroup;
+			children = (
+				80E8C38214523BB800A9EB3A /* accounting */,
+				80E8C37914523BB800A9EB3A /* Frameworks */,
+				80E8C37714523BB800A9EB3A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		80E8C37714523BB800A9EB3A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80E8C37614523BB800A9EB3A /* helicopter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		80E8C37914523BB800A9EB3A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				80E8C37A14523BB800A9EB3A /* UIKit.framework */,
+				80E8C37C14523BB800A9EB3A /* Foundation.framework */,
+				80E8C37E14523BB800A9EB3A /* CoreGraphics.framework */,
+				80E8C38014523BB800A9EB3A /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		80E8C38214523BB800A9EB3A /* accounting */ = {
+			isa = PBXGroup;
+			children = (
+				809CD23014ABDB33007443C0 /* SegmentedControl.xib */,
+				809CD22B14ABDA6B007443C0 /* CalendarViewController.m */,
+				809CD22C14ABDA6B007443C0 /* CalendarViewController.xib */,
+				809CD22D14ABDA6B007443C0 /* CalendarViewController.h */,
+				80E8C38B14523BB800A9EB3A /* accountingAppDelegate.h */,
+				80E8C38C14523BB800A9EB3A /* accountingAppDelegate.m */,
+				80C4D33D14588E2500E6FC0D /* RootViewController.xib */,
+				80E8C39414523BB900A9EB3A /* RootViewController.h */,
+				80E8C39514523BB900A9EB3A /* RootViewController.m */,
+				80E8C38314523BB800A9EB3A /* Supporting Files */,
+			);
+			path = accounting;
+			sourceTree = "<group>";
+		};
+		80E8C38314523BB800A9EB3A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				80E8C38414523BB800A9EB3A /* helicopter-Info.plist */,
+				80E8C38514523BB800A9EB3A /* InfoPlist.strings */,
+				80E8C38814523BB800A9EB3A /* helicopter-Prefix.pch */,
+				80E8C38914523BB800A9EB3A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		80E8C37514523BB800A9EB3A /* helicopter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80E8C39C14523BB900A9EB3A /* Build configuration list for PBXNativeTarget "helicopter" */;
+			buildPhases = (
+				80E8C37214523BB800A9EB3A /* Sources */,
+				80E8C37314523BB800A9EB3A /* Frameworks */,
+				80E8C37414523BB800A9EB3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = helicopter;
+			productName = accounting;
+			productReference = 80E8C37614523BB800A9EB3A /* helicopter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		80E8C36D14523BB800A9EB3A /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 80E8C37014523BB800A9EB3A /* Build configuration list for PBXProject "helicopter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 80E8C36B14523BB800A9EB3A;
+			productRefGroup = 80E8C37714523BB800A9EB3A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				80E8C37514523BB800A9EB3A /* helicopter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		80E8C37414523BB800A9EB3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80E8C38714523BB800A9EB3A /* InfoPlist.strings in Resources */,
+				80C4D33E14588E2500E6FC0D /* RootViewController.xib in Resources */,
+				809CD22F14ABDA6B007443C0 /* CalendarViewController.xib in Resources */,
+				809CD23114ABDB33007443C0 /* SegmentedControl.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		80E8C37214523BB800A9EB3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80E8C38A14523BB800A9EB3A /* main.m in Sources */,
+				80E8C38D14523BB800A9EB3A /* accountingAppDelegate.m in Sources */,
+				80E8C39614523BB900A9EB3A /* RootViewController.m in Sources */,
+				809CD22E14ABDA6B007443C0 /* CalendarViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		80E8C38514523BB800A9EB3A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80E8C38614523BB800A9EB3A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		80E8C39A14523BB900A9EB3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		80E8C39B14523BB900A9EB3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		80E8C39D14523BB900A9EB3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					armv6,
+					"$(ARCHS_STANDARD_32_BIT)",
+				);
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "accounting/helicopter-Prefix.pch";
+				INFOPLIST_FILE = "accounting/helicopter-Info.plist";
+				PRODUCT_NAME = helicopter;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		80E8C39E14523BB900A9EB3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					armv6,
+					"$(ARCHS_STANDARD_32_BIT)",
+				);
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "accounting/helicopter-Prefix.pch";
+				INFOPLIST_FILE = "accounting/helicopter-Info.plist";
+				PRODUCT_NAME = helicopter;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		80E8C37014523BB800A9EB3A /* Build configuration list for PBXProject "helicopter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80E8C39A14523BB900A9EB3A /* Debug */,
+				80E8C39B14523BB900A9EB3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80E8C39C14523BB900A9EB3A /* Build configuration list for PBXNativeTarget "helicopter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80E8C39D14523BB900A9EB3A /* Debug */,
+				80E8C39E14523BB900A9EB3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 80E8C36D14523BB800A9EB3A /* Project object */;
+}
