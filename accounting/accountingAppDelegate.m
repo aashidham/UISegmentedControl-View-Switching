@@ -14,14 +14,14 @@
 
 @synthesize navigationController;
 @synthesize window=_window;
-@synthesize segmentedControl,cVC,rVC;
+@synthesize segmentedControl;//,cVC,rVC;
 
 #pragma mark -
 #pragma mark Helper Methods
 
 - (void) firstPane
 {
-    NSArray * theViewControllers = [NSArray arrayWithObject:self.cVC];
+    NSArray * theViewControllers = [NSArray arrayWithObject:[[CalendarViewController alloc]init]];
     [self.navigationController setViewControllers:theViewControllers animated:NO];
 }
 
@@ -36,7 +36,7 @@
         }
         case 1:
         {
-            NSArray * theViewControllers = [NSArray arrayWithObject:self.rVC];
+            NSArray * theViewControllers = [NSArray arrayWithObject:[[RootViewController alloc]init]];
             [self.navigationController setViewControllers:theViewControllers animated:NO];
             break;        
         }
@@ -68,8 +68,6 @@
 {
     // Override point for customization after application launch.
     // Add the navigation controller's view to the window and display.
-    self.cVC = [[CalendarViewController alloc] init];
-    self.rVC = [[RootViewController alloc] init];
     NSArray* topLevelObjects = [[NSBundle mainBundle] loadNibNamed:@"SegmentedControl" owner:self options:nil];
     self.segmentedControl = [topLevelObjects objectAtIndex:0];
     self.navigationController = [[UINavigationController alloc] init];
@@ -88,8 +86,6 @@
     [_window release];
     [segmentedControl release];
     [navigationController release];
-    [rVC release];
-    [cVC release];
     [super dealloc];
 }
 

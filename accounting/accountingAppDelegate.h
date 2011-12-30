@@ -17,8 +17,8 @@
 @property (nonatomic, retain) UIWindow *window;
 @property (nonatomic, retain) UISegmentedControl* segmentedControl;
 @property (nonatomic, retain) UINavigationController *navigationController;
-@property (nonatomic, retain) RootViewController* rVC;
-@property (nonatomic, retain) CalendarViewController* cVC;
+//@property (nonatomic, retain) RootViewController* rVC;
+//@property (nonatomic, retain) CalendarViewController* cVC;
 
 - (NSArray*)toolBarItems;
 
